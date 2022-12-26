@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainLayout{
+    width: 25vw;
+    height: 80vh;
+    background-color:#000000;
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head h3{
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+}
+#showArea{
+    width: 86%;
+    height: 8vh;
+    background-color: #5d5c5c;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: end;
+    color: white;
+}
+.keyPart{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+.key{
+    width: 5vw;
+    height: 9vh;
+    border-radius: 50%;
+    margin: 10px 3px 0 3px;
+    border: none;
+    color: white;
+    background-color: #5d5c5c;  
+}
+.key:active{
+    opacity: 0.9;
+}
+.operator{
+    background-color: #F29E33;
+}
+.option{
+    background-color: #ffffff;
+    color: black;
+}
+input[value]{
+    font-size: 25px;
+}
+.all-clear,.zero{
+    width: 10vw;
+    height: 9vh;
+    border-radius: 50px;
+}
